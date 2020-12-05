@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+body{
+    background-color:#BFDBFE;
+    margin:0px;  
+}
+h1{
+    font-family: 'Piedra', cursive;
+    letter-spacing: 1px;
+    color:#3A6F9A;
+}
+textarea{
+    border:2px solid #38bee7;
+    font-weight:bold;
+}
+#btn-Translate{
+    padding:5px;
+    background-color:#3A6F9A;
+    color: white;
+    border-style: none;
+    margin-top:2px;
+    font-family: sans-serif;
+    font-size:1rem;
+    border-radius: 0.5rem;
+}
+.heading{
+    display:flex;
+   justify-content: space-between;
+}
+.image_head{
+    width:25%;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    justify-content:center;
+    max-width:420px;
+    margin: 200px auto 50px auto;
+    padding: 20px;
+}
+.container_section{
+    display: flex;
+    align-items: center;
+    margin:5px;
+}
+.output_section{
+    border:2px inset #38bee7;
+    height:10vh;
+    margin-left:15px;
+    width:75%;
+    background-color: #fff;
+}
+.image{
+    width:30%;
+    opacity:0.9;
+}
+.box{
+    box-shadow:-10px 10px 40px #1E3A8A;
+}
+.box:hover{
+    padding:28px;
+}
